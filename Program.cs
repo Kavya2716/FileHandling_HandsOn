@@ -10,6 +10,7 @@ namespace FileHandlingDemo
     {
         static void Main(string[] args)
         {
+            /* Hands-On 1 */
             FileHandling f = new FileHandling();
             f.ReadFile();
             f.Success();
@@ -17,6 +18,10 @@ namespace FileHandlingDemo
             f.Missed();
             f.Dialed();
             Console.ReadLine();
+            
+            /*Hand-On 2*/
+            InputTagDisplay i = new InputTagDisplay();
+            i.Input();
         }
     }
 }
